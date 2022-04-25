@@ -69,6 +69,7 @@ body {
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .main-link:hover {
@@ -104,6 +105,7 @@ body {
 .site-nav{
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .site-nav-link:hover {
@@ -174,9 +176,14 @@ color: #FFFFFF;
 
 .services{
   text-align: center;
+  padding-bottom: 120px;
 }
 
 .services-title {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 120px;
+  margin-bottom: 56px;
   font-family: 'Open Sans',sans-serif;
   font-style: normal;
   text-align: center;
